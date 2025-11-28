@@ -60,7 +60,7 @@ const Navbar = () => {
                                 navLinks.map((link) => (
                                     <a
                                         key={link.name}
-                                        href='link.href'
+                                        href={link.href}
                                         className='block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
                                     >
                                         {link.name}
